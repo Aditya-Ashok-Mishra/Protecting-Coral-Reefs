@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Protecting coral reefs through innovative solutions by Aquaboys.">
+    <title>Protecting Coral Reefs - Aquaboys</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004d40;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .tab-content {
+            padding: 20px;
+        }
+        .tab-content h2 {
+            color: #00796b;
+        }
+        .tab-content p {
+            font-size: 18px;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border-bottom: 2px solid #00796b;
+        }
+        .tab-button {
+            background-color: #e0f7fa;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .tab-button:hover {
+            background-color: #00796b;
+            color: white;
+        }
+        .tab-button.active {
+            background-color: #00796b;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Protecting Coral Reefs by Aquaboys</h1>
+    </header>
+
+    <nav>
+        <a href="#problem-solution" class="tab-button active">Problem & Solution</a>
+        <a href="#aquaboys-plan" class="tab-button">Aquaboys' Plan</a>
+    </nav>
+
+    <div class="tab-content" id="problem-solution">
+        <h2>The Problem: Coral Reefs Under Threat</h2>
+        <p>
+            Coral reefs are among the most diverse ecosystems on the planet, but they are facing immense threats from pollution, overfishing, and climate change. Harmful chemicals, plastic waste, and oil spills are polluting our oceans, leading to coral bleaching and the destruction of vital marine habitats.
+        </p>
+
+        <div class="image-container">
+            <!-- Coral Reef Damage Image -->
+            <img src="https://images.unsplash.com/photo-1559067449-4e18b65b3c2e?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fGNhb3RhcnxlbnwwfDB8fDEwNjc0MjAw&ixlib=rb-1.2.1&q=80&w=1080" alt="Coral Reef Damage">
+        </div>
+
+        <h2>Our Solution: Cleaning Up the Oceans</h2>
+        <p>
+            The Aquaboys believe in creating innovative solutions to protect the oceans and coral reefs. By reducing the amount of waste entering the water and removing existing waste, we can help restore coral reef health and prevent further damage. This involves educating the public, supporting sustainable practices, and utilizing technology to clean our waters.
+        </p>
+
+        <div class="image-container">
+            <!-- Ocean Cleanup Image -->
+            <img src="https://images.unsplash.com/photo-1518678020-4e4196209c02?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fG9jZWFuJTIwY2xlYW5uJTIwYW5kJTIwd2FzdGV8ZW58MHx8fHwxNjg3NzA1NTA5&ixlib=rb-1.2.1&q=80&w=1080" alt="Ocean Cleanup">
+        </div>
+    </div>
+
+    <div class="tab-content" id="aquaboys-plan" style="display:none;">
+        <h2>Our Vision: A Cleaner Ocean with Drones</h2>
+        <p>
+            Aquaboys has developed a cutting-edge plan to protect coral reefs by using drones to collect waste from the ocean. These drones are designed to fly over the ocean's surface, identifying and picking up floating plastic, trash, and other pollutants that threaten marine life.
+        </p>
+
+        <div class="image-container">
+            <!-- Drone in Action Image -->
+            <img src="https://images.unsplash.com/photo-1594263264513-634e7de0cf56?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fGZsaWdodGluZyUyMGRyb25lcyUyMHRoYXQlMjBmb2N1cyUyMHBvbGx1dGlvbnxlbnwwfDB8fDEwNjc0MjAw&ixlib=rb-1.2.1&q=80&w=1080" alt="Drone Cleanup in Action">
+        </div>
+
+        <h2>How the Drones Work</h2>
+        <p>
+            Our drones are equipped with advanced sensors to detect waste in the water. Once waste is detected, the drone uses a mechanical arm to collect the debris and store it in a container. The drone can return to shore for unloading, or it can deposit the waste in designated ocean-cleaning stations.
+        </p>
+
+        <div class="image-container">
+            <!-- Drone Design Image -->
+            <img src="https://images.unsplash.com/photo-1586174590353-cbaed60728d7?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fGRyb25lJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNjg3NzA1MTEz&ixlib=rb-1.2.1&q=80&w=1080" alt="Drone Design for Cleanup">
+        </div>
+
+        <h2>The Benefits of Using Drones</h2>
+        <p>
+            - Efficient waste collection across large ocean areas.<br>
+            - Minimal environmental impact due to the drone's eco-friendly design.<br>
+            - Reducing the amount of waste that reaches coral reefs, preventing damage to marine ecosystems.<br>
+            - Empowering local communities to participate in ocean conservation.
+        </p>
+
+        <h2>Join Us in Protecting Coral Reefs</h2>
+        <p>
+            With your support, Aquaboys can create a cleaner, healthier ocean for future generations. Help us fund the development of these drones and make a real difference in protecting coral reefs worldwide.
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aquaboys. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Tab switching functionality
+        const tabs = document.querySelectorAll('.tab-button');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                tabs.forEach(t => t.classList.remove('active'));
+                // Hide all tab contents
+                tabContents.forEach(content => content.style.display = 'none');
+
+                // Add active class to the clicked tab
+                tab.classList.add('active');
+
+                // Show the corresponding content
+                const targetContent = document.querySelector(tab.getAttribute('href'));
+                targetContent.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
